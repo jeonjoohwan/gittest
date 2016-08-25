@@ -16,7 +16,7 @@ void kmalloc_test( void )
 
 	if( buff != NULL )
     {
-        sprintf( buff, "test memory\n" );
+        sprintf( buff, "kmalloc test  memory\n" );
         printk( buff );
     
         kfree( buff );
